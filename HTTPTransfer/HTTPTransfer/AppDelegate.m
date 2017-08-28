@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "HTTPServer.h"
 #import "MyHTTPConnection.h"
+#import "ZBTool.h"
 @interface AppDelegate (){
     HTTPServer * httpServer;
 }
@@ -23,37 +24,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    httpServer = [[HTTPServer alloc] init];
     
-    [httpServer setType:@"_http._tcp."];
-    
-    // webPath是server搜寻HTML等文件的路径
-    
-    NSString *webPath = [[NSBundle mainBundle] resourcePath];
-    
-    [httpServer setDocumentRoot:webPath];
-    
-    [httpServer setConnectionClass:[MyHTTPConnection class]];
-    
-//    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-//    
-//    self.window.rootViewController = [[UIViewController alloc] init];
-//    
-//    [self.window makeKeyAndVisible];
-    
-    NSError *err;
-    
-    if ([httpServer start:&err]) {
-        
-        NSLog(@"port %hu",[httpServer listeningPort]);
-        
-    }else{
-        
-        NSLog(@"%@",err);
-        
-    }
     
  
+    
+ 
+   
 
     return YES;
 }

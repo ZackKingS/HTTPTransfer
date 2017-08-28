@@ -45,6 +45,7 @@
 		3A1F27D61F53D2B000B7BF45 /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1F27CC1F53D2B000B7BF45 /* ContextFilterLogFormatter.m */; };
 		3A1F27D71F53D2B000B7BF45 /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1F27CE1F53D2B000B7BF45 /* DispatchQueueLogFormatter.m */; };
 		3A1F27D81F53D2B000B7BF45 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3A1F27CF1F53D2B000B7BF45 /* README.txt */; };
+		3A1F27DB1F53DB0000B7BF45 /* ZBTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1F27DA1F53DB0000B7BF45 /* ZBTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -119,6 +120,8 @@
 		3A1F27CD1F53D2B000B7BF45 /* DispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchQueueLogFormatter.h; sourceTree = "<group>"; };
 		3A1F27CE1F53D2B000B7BF45 /* DispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchQueueLogFormatter.m; sourceTree = "<group>"; };
 		3A1F27CF1F53D2B000B7BF45 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		3A1F27D91F53DB0000B7BF45 /* ZBTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBTool.h; sourceTree = "<group>"; };
+		3A1F27DA1F53DB0000B7BF45 /* ZBTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +164,8 @@
 				3A124F9D1F53C3CA0085299C /* AppDelegate.m */,
 				3A124F9F1F53C3CB0085299C /* ViewController.h */,
 				3A124FA01F53C3CB0085299C /* ViewController.m */,
+				3A1F27D91F53DB0000B7BF45 /* ZBTool.h */,
+				3A1F27DA1F53DB0000B7BF45 /* ZBTool.m */,
 				3A124FA21F53C3CB0085299C /* Main.storyboard */,
 				3A1250121F53C8F20085299C /* CSMIPHelper.h */,
 				3A1250131F53C8F20085299C /* CSMIPHelper.m */,
@@ -395,6 +400,7 @@
 				3A1250141F53C8F20085299C /* CSMIPHelper.m in Sources */,
 				3A1F27D11F53D2B000B7BF45 /* DDAbstractDatabaseLogger.m in Sources */,
 				3A124FE31F53C5D90085299C /* HTTPDataResponse.m in Sources */,
+				3A1F27DB1F53DB0000B7BF45 /* ZBTool.m in Sources */,
 				3A124FDE1F53C5D90085299C /* HTTPServer.m in Sources */,
 				3A124FEB1F53C6030085299C /* MyHTTPConnection.m in Sources */,
 				3A124FDC1F53C5D90085299C /* HTTPConnection.m in Sources */,

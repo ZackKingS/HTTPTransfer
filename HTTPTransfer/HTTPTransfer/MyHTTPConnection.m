@@ -181,6 +181,7 @@ static const int httpLogLevel = HTTP_LOG_LEVEL_VERBOSE; // | HTTP_LOG_FLAG_TRACE
 	// here we just write the output from parser to the file.
 	if( storeFile ) {
 		[storeFile writeData:data];
+        NSLog(@"????");
 	}
 }
 
